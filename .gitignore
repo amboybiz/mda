@@ -1,1 +1,5 @@
- .lando.yml
+.lando.yml
+web/config/
+web/modules/contrib/
+web/sites/default/files/
+web/sites/default/settings.php
