@@ -3,3 +3,7 @@ web/config/
 web/modules/contrib/
 web/sites/default/files/
 web/sites/default/settings.php
+.htaccess
+vendor/
+web/error_log
+web/sites/default/settings.php
