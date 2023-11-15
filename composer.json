@@ -21,7 +21,8 @@
         "drupal/core-composer-scaffold": "^10.1",
         "drupal/core-project-message": "^10.1",
         "drupal/core-recommended": "^10.1",
-        "drupal/field_group": "^3.4"
+        "drupal/field_group": "^3.4",
+        "drush/drush": "^12.3"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -36,7 +37,8 @@
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "process-timeout": 0
     },
     "extra": {
         "drupal-scaffold": {
