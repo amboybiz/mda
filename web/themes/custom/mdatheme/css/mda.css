@@ -1,0 +1,43 @@
+
+.hr-confidential{
+  width: 100%;
+  text-align: right;
+  border-bottom: 1px solid;
+  color: blue;
+  border-color: black;
+}
+.hr-confidential,
+.cover-page-title,
+.cover-page-details { 
+  text-transform:uppercase; 
+  font-weight: 700;
+}
+.cover-page-title span {display: inherit;}
+.cover-page-title  { 
+  width: 250px;
+  margin: 0 auto;
+  text-align:center; 
+}
+
+.cover-page-details {
+    width: 500px;
+    margin: 0 auto;
+    border: 6px double;
+    border-radius: 60px;
+    padding: 30px;
+}
+.cover-page-details.no-border { 
+  border: none;
+  padding-bottom: 0;
+  padding-top: 10px;
+}
+
+.cover-page-details .col-7 {text-align: justify;}
+.cover-page-footer-img-wrapper { text-align:right; }
+.cover-page-footer-img-wrapper img {
+  width: 250px;
+  height: auto;
+}
+@media print {
+  .cover-page-footer {page-break-after: always;}
+}
